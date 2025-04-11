@@ -3,10 +3,10 @@ const questions = [
   "Kalau punya alat seperti Doraemon, alat apa yang ingin kamu miliki?",
   "Apa kenangan masa kecil yang paling membahagiakan?",
   "Hal apa yang membuatmu merasa paling dicintai?",
-  "Jika bisa pergi ke mana saja dengan pintu ke mana saja, ke mana kita akan pergi bersama?",
-  "Apa yang paling kamu sukai tentang kita sebagai pasangan?",
-  "Kalau kamu jadi Nobita, apa yang akan kamu minta pada Doraemon hari ini?",
-  "Apa momen paling lucu yang pernah kita alami bersama?"
+  "Bagaimana pendapatmu tentang LDR?",
+  "Apakah ketakutan terbesarmu, dan apa kamu pernah mengatasinya?",
+  "Kalau boleh tau dari 2024 - sekarang, kapan kamu merasa paling sedih dan paling bahagia?",
+  "Ada ngga kalimat/motivasi yang paling kamu ingat sampai saat ini?"
 ];
 
 const questionElement = document.getElementById("question");
@@ -62,7 +62,7 @@ function sendEmail(content) {
   emailjs
     .send("service_btkbte6", "template_yvw7zr4", {
       message: content,
-      to_email: "tyanade59@gmail.com", 
+      to_email: "tyanade59@gmail.com",
     })
     .then(
       () => {
