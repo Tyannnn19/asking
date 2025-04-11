@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haiiii</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="main-title">Haiii kamuu</h1>
+    <div class="question-box">
+      <p id="question">Klik tombol untuk memulai ya!</p>
+    </div>
+    <div class="button-group">
+      <button class="btn primary" id="randomBtn">Tampilkan Pertanyaan</button>
+      <button class="btn secondary" onclick="window.location.href='closing.html'">Selesai</button>
+    </div>
+    <div class="answer-section">
+      <h2>Jawaban Anda</h2>
+      <textarea id="answerInput" placeholder="Tulis jawaban Anda di sini..."></textarea>
+      <button class="btn submit" id="submitBtn">Simpan Jawaban</button>
+    </div>
+    <button class="btn email" id="emailBtn">Kirim Jawaban ke Email</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
