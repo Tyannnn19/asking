@@ -3,7 +3,7 @@ const questions = [
   "Kalau punya alat seperti Doraemon, alat apa yang ingin kamu miliki?",
   "Apa kenangan masa kecil yang paling membahagiakan?",
   "Hal apa yang membuatmu merasa paling dicintai?",
-  "Bagaimana pendapatmu tentang ?",
+  "Bagaimana pendapatmu tentang LDR?",
   "Apakah ketakutan terbesarmu, dan apa kamu pernah mengatasinya?",
   "Kalau boleh tau dari 2024 - sekarang, kapan kamu merasa paling sedih dan paling bahagia?",
   "Ada ngga kalimat/motivasi yang paling kamu ingat sampai saat ini?"
