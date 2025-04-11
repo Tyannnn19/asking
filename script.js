@@ -1,6 +1,6 @@
 const questions = [
   "Apa mimpi terbesar yang belum tercapai?",
-  "Kalau punya alat seperti Doraemon, alat apa yang ingin kamu miliki?",
+  "Kalau punya alat seperti Doraemon, alat apa yang ingin kamu miliki dan kenapa kamu milih alat tersebut?",
   "Apa kenangan masa kecil yang paling membahagiakan?",
   "Hal apa yang membuatmu merasa paling dicintai?",
   "Bagaimana pendapatmu tentang LDR?",
